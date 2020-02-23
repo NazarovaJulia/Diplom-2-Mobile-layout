@@ -57,9 +57,9 @@
       <article class="athlets_preview">
         <h2 class="section_info_title">athlets</h2>
           <picture class="footballer_image">
-              <source media="(max-width: 320px)" srcset="img/footballer_192.png">
-              <source media="(min-width: 641px)" srcset="img/footballer_497.png">
-              <source media="(min-width: 960px)" srcset="img/footballer_566.png">
+              <source media="(max-width: 640px)" srcset="img/footballer_192.png">
+              <source media="(min-width: 641px) and (max-width: 1070px)" srcset="img/footballer_497.png">
+              <source media="(min-width: 1071px)" srcset="img/footballer_566.png">
                 
               <img class="footballer_img" src="img/footballer_566.png" alt="Footballer">
             </picture>
@@ -105,16 +105,16 @@
         </ol>
       </article>
       <article class="players_preview">
-          <h2 class="section_info_title">players</h2>
+          <h2 class="title_players">players</h2>
           <picture class="basketballer_image">
-              <source media="(max-width: 320px)" srcset="img/basketballer_302.png">
-              <source media="(min-width: 641px)" srcset="img/basketballer_436.png">
-              <source media="(min-width: 960px)" srcset="img/basketballer_991.png">
+              <source media="(max-width: 640px)" srcset="img/basketballer_302.png">
+              <source media="(min-width: 641px) and (max-width: 960px)" srcset="img/basketballer_436.png">
+              <source media="(min-width: 961px)" srcset="img/basketballer_991.png">
                 
               <img class="basketballer_img" src="img/basketballer_302.png" alt="Basketballer">
             </picture>
             <ol class="sportsmen_list"> 
-             <li class="sportsmen_list_item">
+             <li class="player_list_item">
 
             <div class="information">
 
@@ -127,7 +127,7 @@
                   </div>
             </div>
         </li>
-        <li class="sportsmen_list_item">
+        <li class="player_list_item">
 
             <div class="information">
                 <div class="info_header">
@@ -158,13 +158,15 @@
      <section class="actions">
 
       <div class="actions_section">
+        <div class="action_picture">
         <picture class="actions_image">
           <source media="(max-width: 640px)" srcset="img/be-active_640.jpg">
-          <source media="(min-width: 641px and max-width: 690px)" srcset="img/be-active_960.jpg">
+          <source media="(min-width: 641px) and (max-width: 960px)" srcset="img/be-active_960.jpg">
           <source media="(min-width: 961px)" srcset="img/be-active_1024.jpg">
                     
           <img class="actions_image" src="img/be-active_640.jpg" alt="Athlet with phone">
         </picture>
+        </div>
         <div class="actions_information">
             <div class="actions_content">
               <h2 class="actions_info_title">be active</h2>
@@ -180,20 +182,22 @@
       </div>
 
       <div class="actions_section">
+        <div class="contact_picture">
         <picture class="actions_image">
           <source media="(max-width: 640px)" srcset="img/find-contact_640.jpg">
-          <source media="(min-width: 641px and max-width: 690px)" srcset="img/find-contact_960.jpg">
+          <source media="(min-width: 641px) and (max-width: 960px)" srcset="img/find-contact_960.jpg">
           <source media="(min-width: 961px)" srcset="img/find-contact_1024.jpg">
                     
           <img class="actions_image" src="img/find-contact_640.jpg" alt="Man with 
 headphones">
         </picture>
+      </div>
         <div class="actions_information">
             <div class="actions_content">
               <h2 class="actions_info_title">find contact</h2>
               <p>Contact others to find right coach or athlete you are looking for. </p>
             </div>
-            <div class="items">
+            <div class="find_items">
           <div class="item">
             <p class="item-number">02</p>
           </div>
@@ -202,13 +206,15 @@ headphones">
       </div>
 
       <div class="actions_section">
+        <div class="action_picture">
         <picture class="actions_image">
           <source media="(max-width: 640px)" srcset="img/work-it_640.jpg">
-          <source media="(min-width: 641px and max-width: 690px)" srcset="img/work-it_960.jpg">
+          <source media="(min-width: 641px) and (max-width: 960px)" srcset="img/work-it_960.jpg">
           <source media="(min-width: 961px)" srcset="img/work-it_1024.jpg">
                     
           <img class="actions_image" src="img/work-it_640.jpg" alt="Football team">
         </picture>
+      </div>
         <div class="actions_information">
             <div class="actions_content">
               <h2 class="actions_info_title">work it</h2>
@@ -226,21 +232,21 @@ headphones">
 
     <footer class="footer">
         <div class="footer_head">
-          <p class="footer_svg_title">
+          <div class="footer_svg_title">
          <svg class="footer_logo" viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg">
               <g>
                 <path d="M115.5 36.848v190.304L253.03 132 115.5 36.848zM282.112 142.28l-172 119c-8.29 5.736-19.612-.198-19.612-10.28V13c0-10.082 11.321-16.016 19.612-10.28l172 119c7.184 4.97 7.184 15.59 0 20.56z" fill-rule="nonzero"/>
                 <path d="M42.5 107h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zm0 70h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zM8 143h168a8 8 0 1 0 0-16H8a8 8 0 1 0 0 16z" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"/>
               </g>
             </svg>
-           </p>
+           </div>
             <div class="footer_text"> <p class="footer_text_title">download app</p> <p class="app_text">Show everyone what you can do!
             </p>
           </div>
         </div>
 
       
-            <div class="downloading">
+    <div class="downloading">
     <button class="store_button">
       <div class="button_group">
         <div class="button_content">
@@ -268,8 +274,6 @@ headphones">
       </div>
     </button>
   </div>
-
-
       <div class="header">
         <svg class="header_logo" viewBox="0 0 972 264" xmlns="http://www.w3.org/2000/svg">
             <g fill-rule="evenodd">
