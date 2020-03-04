@@ -239,7 +239,7 @@ margin: 0 10% 26%;
 }
 
 .title_players{
-    margin-top: 8%;
+    margin-top: 25px;
     margin-bottom: 0;
     margin-left: 6%;
     text-transform: uppercase;
@@ -252,7 +252,11 @@ margin: 0 10% 26%;
 
     z-index: 9999;
     max-width: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-bottom: -50px;
+    margin-top: 80px;
 }
 
 .player_list_item{
@@ -343,12 +347,6 @@ margin-left: 6%;
 .infiormation{
     max-width: calc (320px - 6%);
     }
-}
-
-
-
-.basketballer_image{
-   margin: auto;
 }
 
 
@@ -813,7 +811,7 @@ color: #ffffff;
     text-align: left;
 }
 
-.players_preview{
+.sportsmen{
     width: 100%;
     overflow: hidden;
 }
